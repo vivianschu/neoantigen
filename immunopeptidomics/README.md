@@ -2,7 +2,7 @@
 
 ## Installation
 1. If on MacOS, follow instructions to install [Docker](https://docs.docker.com/desktop/setup/install/mac-install/).
-2. Pull the docker image to convert vendor data by [ProteoWizard]().
+2. Pull the docker image to convert vendor data by [ProteoWizard](http://proteowizard.sourceforge.net/download.html).
     ```bash
     docker pull chambm/pwiz-skyline-i-agree-to-the-vendor-licenses
     ```
