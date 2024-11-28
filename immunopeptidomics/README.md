@@ -1,17 +1,10 @@
 # Immunopeptidomics Processing
 
 ## Installation
-1. Install Mono using Homebrew:
-    ```bash
-    brew install mono
-    ```
-2. Confirm Mono installation:
-    ```bash
-    mono --version
-    ```
-3. Install [ThermoRawFileParser](https://github.com/compomics/ThermoRawFileParser/releases) from the Releases Page.
-4. Download the latest `.zip` file for the parser.
-5. Unzip the downloaded file to the desired location (e.g., `~/ThermoRawFileParser`)
+1. Install [Mono](https://www.mono-project.com/download/stable/#download-mac)
+2. Install [ThermoRawFileParser](https://github.com/compomics/ThermoRawFileParser/releases) from the Releases Page.
+3. Download the latest `.zip` file for the parser.
+4. Unzip the downloaded file to the desired location (e.g., `~/ThermoRawFileParser`)
 
 ## Convert
 ThermoRawFileParser runs using the following syntax:
@@ -40,3 +33,4 @@ Convert all `.raw` files in a directory:
 ```bash
 mono ThermoRawFileParser.exe -d=/path/to/input_directory -o=/path/to/output_directory -f=1
 ```
+mono ThermoRawFileParser.exe -d=/Volumes/PXD007935 -o=/Volumes/PXD007935 -f=1
