@@ -37,7 +37,8 @@ mono ThermoRawFileParser.exe -i=<input_file> -o=<output_directory> -f=<format>
     - `3` = Parquet
     - `4` = No output (metadata only)
 
-**Optional**
+**Optional**:
+
 Convert all `.raw` files in a directory:
 ```bash
 mono ThermoRawFileParser.exe -d=/path/to/input_directory -o=/path/to/output_directory -f=1
