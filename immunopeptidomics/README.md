@@ -20,9 +20,6 @@ mono ThermoRawFileParser.exe -i=<input_file> -o=<output_directory> -f=<format>
 ```
 ### Example Command
 1. Navigate to the directory where ThermoRawFileParser is located:
-    ```bash
-    mono ThermoRawFileParser.exe -i=/path/to/input_file.raw -o=/path/to/output_directory -f=1
-    ```
 2. Convert the `.raw` to `.mzML`:
     ```bash
     mono ThermoRawFileParser.exe -i=/path/to/input_file.raw -o=/path/to/output_directory -f=1
